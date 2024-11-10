@@ -1,0 +1,245 @@
+{
+  "main": {
+    "id": "d6c4637d03c9aba2",
+    "type": "split",
+    "children": [
+      {
+        "id": "f75a9ed67e7228f3",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "1c715c8a1847c5c5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Git Lecture 1 Concepts Notes.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Git Lecture 1 Concepts Notes"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "e842880b3bac6047",
+    "type": "split",
+    "children": [
+      {
+        "id": "7faa162f138bac53",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "0e3d9c4c550f9ca9",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "fd15b7c9e49ac477",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "flask",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "a16cfca35d6d24dd",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
+            }
+          },
+          {
+            "id": "7095d05959c0a371",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 302.5
+  },
+  "right": {
+    "id": "7dcb91c75a3768a3",
+    "type": "split",
+    "children": [
+      {
+        "id": "b0573f0c77a254ee",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d8837a168bb7d2e7",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Programming Languages/Python/2. Flask/10. Flask Web CentOS Server.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for 10. Flask Web CentOS Server"
+            }
+          },
+          {
+            "id": "99ec26e8c41d3271",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Programming Languages/Python/2. Flask/10. Flask Web CentOS Server.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from 10. Flask Web CentOS Server"
+            }
+          },
+          {
+            "id": "6fc3d4e5b474eb74",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "17198e5890d3f845",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Programming Languages/Python/2. Flask/10. Flask Web CentOS Server.md"
+              },
+              "icon": "lucide-list",
+              "title": "Outline of 10. Flask Web CentOS Server"
+            }
+          },
+          {
+            "id": "6461de1442b14953",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "mermaid-tools:Open Mermaid Toolbar": false,
+      "obsidian-git:Open Git source control": false,
+      "templater-obsidian:Templater": false
+    }
+  },
+  "active": "1c715c8a1847c5c5",
+  "lastOpenFiles": [
+    "Lectures/Git/Notes/Untitled.md",
+    "templates/Assignment.md",
+    "templates/Lecture Template.md",
+    "templates/Note template.md",
+    "Main.md",
+    "Git Lecture 1 Concepts Notes.md",
+    "Lectures/Git/Git Lecture 1 Concepts.md",
+    "OD Lecture 3 Notes.md",
+    "Lectures/Git/Notes",
+    "Lectures/Math/Math Lecture 5.md",
+    "Lectures/Math/Math Lecture 1.md",
+    "Lectures/Git/6. Common Issues.md",
+    "Lectures/Git/3. Basic Commands.md",
+    "Lectures/Programming Languages/C++/Basic/0. General Concepts/0. Syntax and Rules.md",
+    "Lectures/OD/Assignments/OD Lecture 3 Assignments.md",
+    "Lectures/OD/Notes/Untitled.md",
+    "Lectures/OD/OD Lecture 3.md",
+    "Lectures/OD/OD Lecture 2.md",
+    "Lectures/OD/Notes/OD Lecture 2 Notes.md",
+    "Lectures/OD/Assignments/OD Lecture 2 Assignments.md",
+    "Lectures/Math/Assignments/Math Module Assignments.md",
+    "Lectures/Math/Notes/Math Lecture 5 Notes.md",
+    "Lectures/Math/Assignments/Math Lecture 1 Assignment.md",
+    "Lectures/Math/Notes/Untitled.md",
+    "Lectures/Math/Assignments/Math Lecture 5 Assignments.md",
+    "Lectures/Math/Notes/Math Lecture 1 Notes.md",
+    "Lectures/OD/Notes/OD Lecture 6 Notes.md",
+    "Lectures/OD/Pasted image 20241004144112.png",
+    "Lectures/OD/Pasted image 20241006135754.png",
+    "Lectures/OD/Assignments",
+    "Lectures/OD/Notes",
+    "Lectures/OD",
+    "Lectures/Math/Notes",
+    "Lectures/Math/Assignments",
+    "Lectures/Math",
+    "Assignments",
+    "templates/scripts/getSemester.js",
+    "templates/scripts/New Tekstdokument.txt",
+    "Z-Archive/Pictures/Programming/nacos.png",
+    "Z-Archive/Pictures/Programming/nacos-center.png",
+    "Z-Archive/Pictures/Programming/gateway.jpg",
+    "Z-Archive/Pictures/Programming/Microservices.jpeg",
+    "Z-Archive/Pictures/Big Data/yarnCluster.png",
+    "Z-Archive/Pictures/Big Data/yarnClient.png",
+    "Z-Archive/Pictures/Big Data/SparkStreamEngine.png",
+    "Z-Archive/Pictures/Big Data/SparkStreaming.png",
+    "Untitled 1.canvas",
+    "Untitled.canvas"
+  ]
+}
