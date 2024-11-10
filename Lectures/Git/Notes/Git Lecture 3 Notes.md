@@ -1,3 +1,21 @@
+---
+tags:
+  - Notes
+links: "[[Git Lecture 3 Repository]]"
+creation date: 2024-11-10 21:05
+modification date: Sunday 10th November 2024 21:05:17
+semester: 3
+year: 2024
+---
+
+
+---
+# [[Git Lecture 3 Notes]]
+
+---
+
+
+
 ### Repo
 A Git repository (repo) is a storage space where your project's history is stored. It <mark style="background: #FFB8EBA6;">contains all the revisions and edits of your files, along with the commit history, branches, tags, and more</mark>. Here's how it works and what you need to know about managing a Git repository.
 
@@ -131,4 +149,3 @@ If there are any conflicts, Bob resolves them, stages the resolved files, commit
    git push origin main
    ```
 
-By following these steps, Alice and Bob can effectively collaborate on the same project, ensuring their changes are integrated smoothly.

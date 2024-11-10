@@ -1,3 +1,20 @@
+---
+tags:
+  - Notes
+links: "[[Git Lecture 4 Commands]]"
+creation date: 2024-11-10 21:07
+modification date: Sunday 10th November 2024 21:07:56
+semester: 3
+year: 2024
+---
+
+
+---
+# [[Git Lecture 4 Notes]]
+
+---
+
+
 ### Repositories
 
 - **Initialize a Repository (`init`)**: 
@@ -279,3 +296,4 @@ If there are any conflicts, Bob resolves them, stages the resolved files, commit
    git checkout feature-alice
    git rebase main
    ```
+

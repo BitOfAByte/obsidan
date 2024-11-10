@@ -1,3 +1,21 @@
+---
+tags:
+  - Notes
+links: "[[Git Lecture 2 Notes]]"
+creation date: 2024-11-10 21:00
+modification date: Sunday 10th November 2024 21:00:29
+semester: 3
+year: 2024
+---
+
+
+---
+# [[Git Lecture 2 Notes]]
+
+---
+
+
+
 ### Initialization
 To create a new Git repository in your project directory, follow these steps:
 
@@ -63,4 +81,5 @@ git merge master --allow-unrelated-histories
   ```bash
   git config --list
   ```
+  
   This command displays all the Git configuration settings, including user name, email, default editor, and other preferences, providing a comprehensive overview of your Git setup.

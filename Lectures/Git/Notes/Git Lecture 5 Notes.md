@@ -1,3 +1,21 @@
+---
+tags:
+  - Notes
+links: "[[Git Lecture 5 Remote Repositories]]"
+creation date: 2024-11-10 21:11
+modification date: Sunday 10th November 2024 21:11:33
+semester: 3
+year: 2024
+---
+
+
+---
+# [[Git Lecture 5 Notes]]
+
+---
+
+
+
 ### Understanding Remote Repositories
 Remote repositories in Git are versions of your project that are hosted on the internet or network somewhere. They allow multiple developers to collaborate on the same project, synchronize their changes, and maintain a central source of truth for the project's codebase. Key points include:
 

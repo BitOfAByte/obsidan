@@ -26,7 +26,8 @@
       "key": "A"
     }
   ],
-  "templater-obsidian:create-templates/Note template.md": [
+  "templater-obsidian:create-new-note-from-template": [],
+  "templater-obsidian:templates/Note template.md": [
     {
       "modifiers": [
         "Alt",

@@ -1,3 +1,21 @@
+---
+tags:
+  - Notes
+links: "[[Git Lecture 7 Common Issues]]"
+creation date: 2024-11-10 21:14
+modification date: Sunday 10th November 2024 21:14:15
+semester: 3
+year: 2024
+---
+
+
+---
+# [[Git Lecture 7 Notes]]
+
+---
+
+
+
 ### Common Git Problems and Solutions
 
 - **Merge Conflicts**: Occur when Git is unable to automatically resolve differences in code between two commits. To resolve, manually edit the conflicting files to select the desired changes, then stage and commit them.

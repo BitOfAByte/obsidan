@@ -1,3 +1,20 @@
+---
+tags:
+  - Notes
+links: 
+creation date: 2024-11-10 21:13
+modification date: Sunday 10th November 2024 21:13:01
+semester: 3
+year: 2024
+---
+
+
+---
+# [[Git Lecture 6 Notes]]
+
+---
+
+
 ### Stashing Changes
 - **Stashing (`stash`)**:
   `git stash` temporarily shelves (or stashes) changes you've made to your working directory, allowing you to switch branches or work on something else without committing incomplete changes. To apply the stashed changes back to your working directory, use `git stash pop`.
