@@ -1,7 +1,7 @@
 ---
 tags:
   - Notes
-links: 
+links: "[[Git Lecture 1 Concepts]]"
 creation date: 2024-11-10 20:42
 modification date: Sunday 10th November 2024 20:42:32
 semester: 3
