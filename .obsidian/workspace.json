@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Lectures/Statistical data analysis/Assignments/Statistics  Lecture 1 Assignment.md",
+                "file": "Lectures/Math/Assignments/Math Lecture 2 Assignment.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Statistics  Lecture 1 Assignment"
+              "title": "Math Lecture 2 Assignment"
             }
           }
         ]
@@ -204,7 +204,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -222,14 +223,23 @@
   },
   "active": "83eb7421a2ecdb6b",
   "lastOpenFiles": [
+    "Lectures/Math/Assignments/Math Lecture 1 Assignment.md",
+    "Lectures/Math/Assignments/Exercises.md",
+    "Lectures/Math/Assignments/Math Lecture 2 Assignment.md",
+    "Lectures/Math/Notes/Math Lecture 2 Notes.md",
+    "Lectures/Math/Math Lecture 2.md",
+    "Untitled.md",
+    "Lectures/Math/Notes/Math Lecture 1 Notes.md",
+    "Lectures/Math/Math Lecture 1.md",
+    "Lectures/Math/Math Lecture 5.md",
+    "Lectures/Math/ba-mat1-exercises.pdf",
+    "Lectures/Statistical data analysis/Assignments/Statistics  Lecture 1 Assignment.md",
     "Lectures/Statistical data analysis/Statistics Lecture 1.md",
     "Lectures/a/testingv.md",
-    "Lectures/Math/Math Lecture 1.md",
     "Lectures/a/Assignments/Testing.md",
     "templates/Lecture Template.md",
     "Lectures/a/Assignments",
     "Lectures/a",
-    "Lectures/Statistical data analysis/Assignments/Statistics  Lecture 1 Assignment.md",
     "Lectures/Statistical data analysis/Notes",
     "Lectures/Statistical data analysis/Assignments",
     "Lectures/Programming Languages/R/Rattle/0.  Basic.md",
@@ -245,21 +255,12 @@
     "Lectures/Programming Languages/Go/1. Syntax/3. Constants.md.md",
     "Lectures/Programming Languages/Go/1. Syntax/2. Data Types.md",
     "Lectures/Programming Languages/Go/1. Syntax/1. Variables.md",
-    "Lectures/Programming Languages/Go/1. Syntax/0. Basic.md",
-    "Lectures/Programming Languages/Go/0. Intro/1. Features of Go.md",
-    "Lectures/Programming Languages/Go/0. Intro/0. Overview of Go.md",
-    "Lectures/Programming Languages/C++/Basic/0. General Concepts/1. STL.md",
-    "Lectures/Programming Languages/C++/Basic/0. General Concepts/0. Syntax and Rules.md",
-    "Lectures/Programming Languages/C/Basic/Syntax.md",
-    "Lectures/Programming Languages/Assembly/2. Basic Syntax.md",
-    "Lectures/Programming Languages/Assembly/0. Concepts.md",
     "Lectures/Git/Notes",
     "Lectures/OD/Pasted image 20241004144112.png",
     "Lectures/OD/Pasted image 20241006135754.png",
     "Lectures/OD/Assignments",
     "Lectures/OD/Notes",
     "Lectures/OD",
-    "Lectures/Math/Notes",
     "Z-Archive/Pictures/Programming/nacos.png",
     "Z-Archive/Pictures/Programming/nacos-center.png",
     "Z-Archive/Pictures/Programming/gateway.jpg",
