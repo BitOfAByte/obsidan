@@ -1,21 +1,21 @@
 ---
-creation date: 2024-11-09 14:45
-modification date: Tuesday 19th November 2024 20:35:05
+creation date: 2024-11-19 19:11
+modification date: Tuesday 19th November 2024 21:10:34
 tags:
   - "#Lecture"
 year: 2024
 semester: 3
-Lecture: Lectures/OD
+Lecture: Lectures/web-tech
 ---
 ---
-# [[OD Lecture 1]]
+# [[web-tech Lecture 1]]
 
 
 ## Assignments
 
  ```dataview
 table file.name, links
-from "Lectures/OD"
+from "Lectures/web-tech"
 where contains(file.tags, "#Assignments") and contains(file.path, this.file.name)
 ```
 
@@ -26,9 +26,6 @@ where contains(file.tags, "#Assignments") and contains(file.path, this.file.name
 
  ```dataview
 table file.name, links
-from "Lectures/OD"
+from "Lectures/web-tech"
 where contains(file.tags, "#Notes") and contains(file.path, this.file.name)
 ```
-
-
-

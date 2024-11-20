@@ -1,24 +1,23 @@
 ---
-creation date: 2024-11-10 21:20
-modification date: Sunday 10th November 2024 21:20:34
+creation date: 2024-11-19 19:28
+modification date: Tuesday 19th November 2024 19:28:22
 tags:
   - "#Lecture"
 year: 2024
 semester: 3
-Lecture: Lectures/Statistical data analysis
+Lecture: Lectures/web-tech
 ---
 ---
-# [[Statistics Lecture 1]]
+# [[web-tech Lecture 10]]
 
 
 ## Assignments
 
  ```dataview
 table file.name, links
-from "Lectures/Statistical data analysis"
+from "Lectures/web-tech"
 where contains(file.tags, "#Assignments") and contains(file.path, this.file.name)
 ```
-
 
 
 
@@ -27,8 +26,9 @@ where contains(file.tags, "#Assignments") and contains(file.path, this.file.name
 
  ```dataview
 table file.name, links
-from "Lectures/Statistical data analysis"
+from "Lectures/web-tech"
 where contains(file.tags, "#Notes") and contains(file.path, this.file.name)
 ```
+
 
 

@@ -1,6 +1,6 @@
 ---
 creation date: 2024-11-09 15:25
-modification date: Saturday 9th November 2024 15:25:23
+modification date: Tuesday 19th November 2024 21:04:17
 tags:
   - "#Lecture"
 year: 2024
@@ -16,7 +16,7 @@ Lecture: Lectures/OD
  ```dataview
 table file.name, links
 from "Lectures/OD"
-where contains(file.tags, "#Assignments")
+where contains(file.tags, "#Assignments") and contains(file.path, this.file.name)
 ```
 
 
@@ -27,6 +27,8 @@ where contains(file.tags, "#Assignments")
  ```dataview
 table file.name, links
 from "Lectures/OD"
-where contains(file.tags, "#Notes")
+where contains(file.tags, "#Notes") and contains(file.path, this.file.name)
 ```
+
+
 
