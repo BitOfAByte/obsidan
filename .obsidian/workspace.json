@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Lectures/Math/Notes/Math Lecture 5 Notes.md",
+                "file": "Lectures/Math/Eksamen lecture 9.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Math Lecture 5 Notes"
+              "title": "Eksamen lecture 9"
             }
           }
         ]
@@ -204,8 +204,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -223,15 +222,22 @@
   },
   "active": "a7ffc3ebcc0654c3",
   "lastOpenFiles": [
-    "Lectures/Math/Math Lecture 5.md",
-    "Lectures/Math/Assignments/Math Lecture 5 Assignments.md",
+    "Lectures/Math/Notes/Math Lecture 6 Notes.md",
+    "Lectures/Math/Eksamen lecture 9.md",
+    "Lectures/Math/Math Lecture 6.md",
     "Lectures/Math/Notes/Math Lecture 5 Notes.md",
+    "Lectures/Math/Math Lecture 5.md",
+    "Lectures/Math/Math Lecture 9.md",
+    "Lectures/Math/Notes/Math Lecture 3 Notes.md",
+    "Lectures/Math/Notes/Math Lecture 2 Notes.md",
     "Lectures/Math/Notes/Math Lecture 4 Notes.md",
+    "Statistics/1. Statistical Inference/{F278E985-2659-4652-9CEE-60224877F4BF}.png",
+    "Statistics/1. Statistical Inference",
+    "Statistics",
+    "Lectures/Math/Assignments/Math Lecture 5 Assignments.md",
     "Lectures/Math/Math Lecture 4.md",
     "Lectures/Math/Math Lecture 3.md",
     "Lectures/Math/Assignments/Exercises.md",
-    "Lectures/Math/Notes/Math Lecture 3 Notes.md",
-    "Lectures/Math/Notes/Math Lecture 2 Notes.md",
     "Lectures/Math/Notes/Math Lecture 1 Notes.md",
     "Lectures/Math/Notes/Math Lecture 9 Notes.md",
     "Lectures/Math/Math Lecture 1.md",
@@ -239,15 +245,12 @@
     "Lectures/Math/Assignments/Math Lecture 1 Assignment.md",
     "Lectures/Math/Assignments/Math Lecture 9 Assignments.md",
     "Lectures/Math/Assignments/Math Module Assignments.md",
-    "Lectures/Math/Math Lecture 9.md",
     "Main.md",
     "Lectures/OD/Notes/OD Lecture 8 Notes.md",
     "Lectures/OD/OD Lecture 8.md",
     "Lectures/web-tech/web-tech Lecture 10.md",
     "Lectures/web-tech/Notes/web-tech Lecture 10 Notes.md",
     "Lectures/web-tech/Notes/web-tech Lecture 1 Notes.md",
-    "Lectures/web-tech/web-tech Lecture 1.md",
-    "Lectures/Statistical data analysis/Statistics Lecture 1.md",
     "Lectures/OD/Pasted image 20241004144112.png",
     "Lectures/OD/Pasted image 20241006135754.png",
     "Lectures/web-tech/Notes",
@@ -258,8 +261,6 @@
     "Lectures/Statistical data analysis/Notes",
     "Lectures/Statistical data analysis/Assignments",
     "Lectures/Statistical data analysis",
-    "Lectures/Git/Notes",
-    "Lectures/OD/Assignments",
     "Z-Archive/Pictures/Programming/nacos.png",
     "Z-Archive/Pictures/Programming/nacos-center.png",
     "Z-Archive/Pictures/Programming/gateway.jpg",
@@ -267,7 +268,6 @@
     "Z-Archive/Pictures/Big Data/yarnCluster.png",
     "Z-Archive/Pictures/Big Data/yarnClient.png",
     "Z-Archive/Pictures/Big Data/SparkStreamEngine.png",
-    "Z-Archive/Pictures/Big Data/SparkStreaming.png",
     "Untitled 1.canvas",
     "Untitled.canvas"
   ]

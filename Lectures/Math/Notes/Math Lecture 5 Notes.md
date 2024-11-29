@@ -1,7 +1,7 @@
 ---
 tags:
   - Notes
-links: 
+links: "[[Math Lecture 5]]"
 creation date: 2024-11-27 19:13
 modification date: Wednesday 27th November 2024 19:13:53
 semester: 3
@@ -126,3 +126,67 @@ $$f(1)=1^2-4+1=-3+1=-2$$
 
 
 STEP 4: Sæt værdierne ind i formlen.
+
+
+## Tangentlinjen
+- Her kommer vi til at snakke om, hvordan man kan danne en tangentligning udefra en funktion.
+- EKS: Vi har fået funktionen:  $f(x)=3x^{4}-5x^{3}+6x+8$ ved $x=1$
+- Vi starter med, at finde y-værdien da vi allerede har fået oplyst at x, men mangler y for (x,y).
+	- Måden vi finder y-værdien er på, at tage alle talværdierne (uden) x og lægger dem sammen med deres foretegn.
+
+
+$$f(x)=3-5+6+8=12$$
+
+$$P(x,y)=(1,12)$$
+- Differentiere x-værdierne i stamfunktionen
+
+$$f(x)=3x^{4}-5x^{3}+6x+8$$
+$$=3\cdot(4x^{4-1})-3\cdot5\cdot(x^{3-1})+6+0$$
+$$=3\cdot(4x^3)-3\cdot5\cdot(x^{2})+6$$
+$$=12\cdot x^{3}-15\cdot x^{2}+6$$
+
+
+udregn hældningen og dette gøres ved at sætte værdierne uden x med deres fortegn sammen.
+
+$$f(x)=12-15+6=3$$
+
+- find funktionforskriften: $y-y_1=m\cdot(x-x_1)$
+
+
+$$y-12=3\cdot (x-1)$$
+$$y-12+12=3\cdot(x-1)+12$$
+$$y=3x-3\cdot12$$
+
+![[{F278E985-2659-4652-9CEE-60224877F4BF}.png]]
+
+
+## Differentialregning
+
+
+|     $f(x)$     |         $f'(x)$          |
+| :------------: | :----------------------: |
+|      $k$       |           $0$            |
+|      $x$       |           $1$            |
+|     $x^2$      |           $2x$           |
+| $a\cdot x +b$  |            a             |
+|     $x^a$      |     $a\cdot x^{a-1}$     |
+| $\frac{1}{x}$  | $-(\frac{1}{x^2})=-x^-2$ |
+|     $e^x$      |          $e^x$           |
+| $e^{k\cdot x}$ |  $k\cdot e^{k\cdot x}$   |
+|     $a^x$      |     $ln(a)\cdot a^x$     |
+|    $ln(x)$     |      $\frac{1}{x}$       |
+|    $sin(x)$    |         $cos(x)$         |
+|    $cos(x)$    |        $-sin(x)$         |
+|    $tan(x)$    |       $tan^2(x)+1$       |
+
+
+## Differentielregneregler
+
+
+|        Operation         |                               Regl                                |
+| :----------------------: | :---------------------------------------------------------------: |
+|         Addition         |                      $(f+g)'(x)=f'(x)+g'(x)$                      |
+|        Subtaktion        |                      $(f-g)'(x)=f'(x)-g'(x)$                      |
+|         Produkt          |        $(f\cdot g)'(x)=f'(x)\cdot g(x)  + f(x)\cdot g'(x)$        |
+|         Kvotient         | $\frac{f}{g}'(x)=\frac{f'(x) \cdot g(x)-f(x)\cdot g'(x)}{g(x)^2}$ |
+| Skalering for c konstant |                  $(c \cdot f)'(x)=c\cdot f'(x)$                   |
