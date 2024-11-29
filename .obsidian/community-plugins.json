@@ -11,5 +11,6 @@
   "dataview",
   "buttons",
   "templater-obsidian",
-  "obsidian-tikzjax"
+  "obsidian-tikzjax",
+  "quick-latex"
 ]

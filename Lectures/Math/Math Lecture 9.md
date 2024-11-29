@@ -1,6 +1,6 @@
 ---
-creation date: 2024-11-27 19:13
-modification date: Wednesday 27th November 2024 19:13:42
+creation date: 2024-11-27 12:37
+modification date: Wednesday 27th November 2024 12:37:45
 tags:
   - "#Lecture"
 year: 2024
@@ -8,7 +8,7 @@ semester: 3
 Lecture: Lectures/Math
 ---
 ---
-# [[Math Lecture 5]]
+# [[Math Lecture 9]]
 
 
 ## Assignments

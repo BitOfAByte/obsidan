@@ -15,65 +15,152 @@ Lecture: Lectures/Math/Notes
 
 ---
 
+## Intro til Set-Teori
+
+- Set-Teorien går ud på, at vi har en liste af data som vi ønsker at sammeenligne med hindanden gennem adskillige operationer.
+- Vi plejer, at bruge tuborgklammerne til at definere $\{set\}$ værdierne.
+- Allle værdier indee i Set-Teorien kan både være bogstaver, tal, operationstegn etc.
 
 
-## Matrix Multiplication
+## Intersektionen mellen Sets $\cap$
 
-$\vec{a} = \begin{pmatrix} 2 & 5 & 6 \end{pmatrix}$ 
+- Intersektionen mellem sets  går ud  på at sammenligne to lister med hinanden og derved udskrive om der er værdier til fællesskab i resultatet
+- intersektionen benævnest med tagnet: $\cap$ (cap)
 
-$\vec{b} = \begin{pmatrix} 3 \\ 4 \\ -5 \end{pmatrix}$
+### Eksempel:
 
-- Order matters when dealing with matrices 
-	- $\vec{a} \neq \vec{b}$
-- AB tells us that $\vec{a} \cdot \vec{b}$ 
-	- BA tells us that: $\vec{b} \cdot \vec{a}$
-- Order of a matrix:
-	- start with counting rows then columns
-		- Fx: $\vec{a}$ has 1 row and 3 columns so it's a 1x3  matrix
-		- and $\vec{b}$ has 3 rows and 1 column so it's a 3x1 matrix
-	- The number of columns in the first matrix must equal the number of rows in the second matrix
-		-  in order to multiply vector a with vector b, vector b must have 3 rows
-		- the order of the matrix is going to be the product of row of vector a and column of vector b, which do not have to be the same
-			- Order of the matrix $\vec{a} \cdot \vec{b}$ is going to be a 1x1 matrix
-			- Order of the matrix $\vec{b} \cdot \vec{a}$ is going to be a 3x3 matrix
+$$A=\{1,2,3,4,5\}$$
+$$B=\{4,5,6,7,8\}$$
+
+- Værdierne sammenlignes, og ses at $4$ og $5$ er tilfælles ved begge set-teorier. Derfor skrives følgende:
 
 
-### Calculation
-
-- row $\cdot$ column
+$$A\cap B=\{1,2,3,\dots\} \cap \{4,5,6\dots\}$$
 
 
-$\vec{a} \cdot \vec{b} = \begin{pmatrix}2(3)+5(4)+6(-5)\end{pmatrix} \leftrightarrow \begin{pmatrix}6+20-30\end{pmatrix} \leftrightarrow \begin{pmatrix}26-30\end{pmatrix}\leftrightarrow \begin{pmatrix}-4\end{pmatrix}$
-
-$\vec{b_{row1}}\cdot\vec{a_{row1}} = \begin{pmatrix}3(2)+3(5)+3(6)\end{pmatrix} \leftrightarrow \begin{pmatrix}6 & 15 & 18\end{pmatrix}$
-
-$\vec{b_{row2}}\cdot\vec{a_{row2}} = \begin{pmatrix}4(2)+4(5)+4(6)\end{pmatrix} \leftrightarrow \begin{pmatrix}8 & 20 & 24\end{pmatrix}$
-
-$\vec{b_{row3}}\cdot\vec{a_{row3}} = \begin{pmatrix}-5(2)-5(5)-5(6)\end{pmatrix} \leftrightarrow \begin{pmatrix}-10 & -25 & -30\end{pmatrix}$
-
-$\vec{b}\cdot\vec{a}=\begin{pmatrix}6 & 15 & 18 \\ 8 & 20 & 24 \\ -10 & -25 & -30 \end{pmatrix}$
+$$A\cap B = \{4,5\}$$
 
 
+## Unionen mellem Sets $\cup$
 
-### Example
-
-$\vec{a}=\begin{pmatrix}1 & 4 & -2 \\ 3 & 5 & -6\end{pmatrix} \rightarrow 2x3$
-
-
-$\vec{b}=\begin{pmatrix}5 & 2 & 8 & -1 \\ 3 & 6 & 4 & 5 \\ -2 & 9 & 7 & -3\end{pmatrix} \rightarrow 3x4$
+- Intersektionen mellem sets  går ud  på at sammenligne to lister med hinanden og derved udskrive all tal sammen som et resultat uden noget duplikationer af intersektionsværdieren. Unionen benævnes med  taget: $\cup$
 
 
-Since $\vec{a}$ is a 2x3 matrix and  $\vec{b}$ is a  3x4 matrix we cannot  multiply $\vec{b}\cdot\vec{a}$, however we can multiply $\vec{a} \cdot \vec{b}$ because the number of columns in $\vec{a}$ is equal to the number of rows in $\vec{b}$
+### Eksempel
 
-$\vec{a_{row1}}\cdot\vec{b_{row1}}=\begin{pmatrix}1(5)+4(3)+(-2)(-2) & 1(2) + 4(6) + (-2)(9) & 1(8) + 4(4) + (-2)(7) & 1(-1) + 4(5) + (-2)(-3)\end{pmatrix} \leftrightarrow \begin{pmatrix}21 & 8 & 10 & 25\end{pmatrix}$
-$\vec{a_{row2}}\cdot\vec{b_{row2}}=\begin{pmatrix}3(5)+5(3)+(-6)(-2) & 3(2) + 5(6) + (-6)(9) & 3(8) + 5(4) + (-6)(7) & 3(-1) + 5(5) + (-6)(-3)\end{pmatrix} \leftrightarrow \begin{pmatrix}42 & -18 & 2 & 40\end{pmatrix}$
-$\vec{a}\cdot\vec{b}=\begin{pmatrix}21 & 8 & 10 & 25 \\ 42 & -18 &  2 & 40\end{pmatrix}$
+$$A=\{1,2,3,4,5\}$$
+$$B=\{4,5,6,7,8\}$$
+
+- Værdierne sammenlignes og skrives allle værdierne samlet uden duplikationer af 5 og 5 da de er intersekteret. derfor bliver resultatet :
+
+$$A\cup B= \{1,2\dots\} \cup \{4,5\dots\}$$
+$$A\cup B = \{1,2,3,4,5,6,7,8\}$$
 
 
-## Fraction Addition
+## Subtraktionen mellen Sets \
+ ## Subtraktionen mellem sets går ud på, at lave subtraktion mellem to lister og derved udskrive de tal som står på den  "første set-liste"der ikke intersektere med den "anden set-liste". subtaktionen benævnes med tegnet: \
 
-- multiply denominator
-- multiply cross over (see example)
-### Example
 
-$\frac{3}{5} + \frac{4}{7} = \frac{7\cdot3+5\cdot4}{7\cdot5} \leftrightarrow \frac{21+20}{35}\leftrightarrow\frac{41}{35}$
+### Eksempel
+
+
+$$A=\{1,2,3,4,5\}$$
+$$B=\{4,5,6,7,8\}$$
+
+- Set-B bliver ignoreret samt de værdier soim er fælles mellem de to ses. Det resterende af set-b skrives. Derfor bliver resultatet:
+
+
+$$A\backslash B = \{1,2,3,4,5\} - \{4,5,6,7,8\}$$
+$$A\backslash B= \{1,2,3,\cancel{4,5}\} - \{\cancel{4,5,6,7,8}\}$$
+$$A\backslash B=A-B=\{1,2,3\}$$
+
+
+## Længden eller magnituden af Sets |S|
+
+- Længden af Sets, kan findes ved at tæller de enkelte elementer i talsættet. Længden er også kaldt for magnituden, og kan benævnes med tegnet $||$
+
+
+### Eksempel
+
+
+$$A=\{1,2,3,4,5\}$$
+$$B=\{4,5,6,7,8\}$$
+
+- Længden af ekelte sets, skrives på følgende måde:
+	- $A=|5|$ fordi der er 5 tal inde i
+	- $B=|5|$ fordi er er 5 tal inde i
+
+- Længden af subtraktions-set fra sidste opgave:
+
+$$A\backslash B = \{1,2,3,4,5\} - \{4,5,6,7,8\}$$
+$$A\backslash B= \{1,2,3,\cancel{4,5}\} - \{\cancel{4,5,6,7,8}\}$$
+
+$$A\backslash B=A-B=\{1,2,3\}$$
+$$|A\backslash B| = 3$$
+
+## Cardinality i sets S|1
+
+- Cardinality er hvor man fjerner den værdi fra selve settet og derved udskriver de resternde set.
+
+
+### Eksempel:
+
+$$A=\{1,2,3,4,5\}$$
+
+$$A|3=\{1,2,4,5\}$$
+
+
+
+## Subset og Parentset 
+
+- Parentset er karakteriseret for den set, der runner alle tallene for subset. Hvorimod subset som inkluderer en portion af de tal som findes i parentset.
+
+
+### Eksempel
+
+
+$$A= \{1,2,3,4,5\}$$
+$$B=\{4,5\}$$
+- Parentset er A da den indeholder alle tal fra subset
+- subset er B da den indeholder nogle tal for parentset (4 og 5)
+
+
+## Regler for uligheder
+
+
+- Addition af et tal: hvis $a < b$, så $a\pm c<b \pm c$
+- Positiv multiplikation: hvis $a<b$ og $c>0$, så $a\cdot c < b \cdot c$
+- Negativ multiplikation: Hvis $a < b$ og $c < 0$ så $a\cdot c < b\cdot c$
+- Inverse: hvis $a>0$, så $\frac{1}{a}>0$
+- Ordre af inverse: hvis $0<a < b$, så $\frac{1}{b}<\frac{1}{a}$ 
+
+
+## Intervaller 
+
+- Intervaller er en *subset* af Reelle Tal som er defineret af uligheder.
+- Der er forskellige typer:
+  - **Åben:** $(a, b) = \{x \in \mathbb{R} \mid a < x < b\}$ (alle tal mellem $a$ og $b$)
+  - **Lukket:** $[a, b] = \{x \in \mathbb{R} \mid a \leq x \leq b\}$ (alle tal mellem $a$ og $b$, er inkluderet)
+  - **Halv-Åben:**
+    - $(a, b] = \{x \in \mathbb{R} \mid a < x \leq b\}$ (alle tal mellem $a$ og $b$, hvor $b$ er inkluderet)
+    - $[a, b) = \{x \in \mathbb{R} \mid a \leq x < b\}$ (alle tal mellem $a$ og $b$, hvor $a$ er inkluderet)
+    - $[a, \infty) = \{x \in \mathbb{R} \mid a \leq x\}$ (alle tal er større end $a$)
+
+
+
+### Eksempel på intervaller
+
+
+$$x-4\geq 0$$
+
+$$x-4+4=0+4$$
+
+$$x\geq=4$$
+---
+
+$$-3x < 9$$
+$$-3+3x<9+3$$
+$$x<12$$
+
+
+

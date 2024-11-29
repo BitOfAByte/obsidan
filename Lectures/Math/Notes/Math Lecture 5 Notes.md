@@ -1,92 +1,128 @@
 ---
 tags:
   - Notes
-links: "[[Math Lecture 5]]"
-creation date: 2024-11-09 15:54
-modification date: Saturday 9th November 2024 15:54:48
+links: 
+creation date: 2024-11-27 19:13
+modification date: Wednesday 27th November 2024 19:13:53
 semester: 3
 year: 2024
 ---
 
 
 ---
-# Math Lecture 5 Notes
+# [[Math Lecture 5 Notes]]
 
 ---
 
 
 
-# Complex Numbers
+# Grænseværdier
 
-- Complex numbers are used to solve equations of the form $(x^2 = -1)$, where the imaginary unit $(i^2 = -1)$.
-- A specific example discussed is the quadratic equation $(z^2 + 2z + 5 = 0)$, showing that it has no real solutions.
-- The solution for this equation involves calculating the roots using the formula $(z = -\frac{b \pm \sqrt{b^2 - 4ac}}{2a})$, which is extended to complex solutions when the discriminant is negative.
+- Lad os forestille, at vi skal finde Grænseværdien af følgende funktion:
 
+$$\lim_{x\rightarrow2} \frac{x^2-4}{x-2}$$
 
+Vi vil forsøge, at indsætte tallet: 2,1 ved $f(2.1)$
 
-# Representation of Complex Numbers
-
-- A complex number in Cartesian form is expressed as $(z = x + i \cdot y)$, where $(x)$ is the real part and $(y)$ is the imaginary part.
-- The notation for the real and imaginary parts is $(\mathbb{z} = x)$$  and $(Im(z) = y)$.
-- The conjugate of a complex number $(z = a + i \cdot b)$ is represented as $(z^{*} = a - i \cdot b)$.
+$$f(2.1)=\frac{2.1^2-4}{2.1-2}=\frac{0.41}{0.1}=4.1$$
 
 
+Hvorimod ved f(2.01) har vi følgende:
 
-# Operations on Complex Numbers
-
-- **Addition**: Given two complex numbers $(z_1)$ and $(z_2)$, $(z_1 + z_2 = (a + c) + i \cdot (b + d))$.
-- **Example**: For $(z_1 = 2 + 2i)$ and $(z_2 = 1 - 2i)$, their sum is $(z_1 + z_2 = 3 + 0i)$.
-- **Subtraction**: The difference is $(z_1 - z_2 = (a - c) + i \cdot (b - d))$.
-- **Multiplication**: The product is given as $(z_1 \cdot z_2 = (a \cdot c - b \cdot d) + i \cdot (a \cdot d + b \cdot c))$.
-- **Division**: The division of complex numbers is conducted using the conjugate to simplify $( \frac{z_1}{z_2})$.
+$$f(2.01)=\frac{2.01^2-4}{2.01-2}=4.01$$
 
 
+**OBS**: Vi kan se, at jo tættere vores x-værdi inde i funktionen nærmere sig ved 2, desto mere præcis har vi en y-værdi som er ved tallet 4. Men i fleste tilfælde er situationen ikke såden, men anderledes!
 
-# Graphical Representation
 
-- Complex numbers can be represented in the Argand diagram, where the x-axis represents the real part and the y-axis represents the imaginary part.
-- The modulus $( |z| )$ of a complex number is calculated as $(\sqrt{x^2 + y^2})$, and the argument is denoted as $( \theta)$, calculated as $( \tan^{-1}(\frac{y}{x}))$.
+## Eksempler på Grænseværdier
 
-```tikz  
-\begin{document}  
-\begin{tikzpicture}[scale=1]  
-% Draw the axes  
-\draw[->] (-4,0) -- (4,0) node[right] {Re};  
-\draw[->] (0,-4) -- (0,4) node[above] {Im};  
-  
-% Draw the complex number z  
-\def\x{2} % Real part  
-\def\y{3} % Imaginary part  
-\draw[->, thick] (0,0) -- (\x,\y) node[midway, above right] {$z = x + iy$};  
-  
-% Draw the modulus |z|  
-\draw[dashed] (0,0) -- (\x,0) node[midway, below] {$|z| = \sqrt{x^2 + y^2}$};  
-\draw[dashed] (\x,0) -- (\x,\y);  
-  
-% Draw the angle theta  
-\draw[->] (0.5,0) arc[start angle=0, end angle={atan(\y/\x)}, radius=0.5] node[midway, right] {$\theta = \arg(z)$};  
-  
-% Mark the coordinates  
-\fill (\x,\y) circle (2pt) node[above right] {$(x,y)$};  
-\fill (\x,0) circle (2pt) node[below right] {$(x,0)$};  
-\fill (0,\y) circle (2pt) node[left] {$(0,y)$};  
-  
-% Add grid  
-\draw[very thin, gray] (-4,-4) (4,4);  
-\end{tikzpicture}  
-\end{document}  
-```
+Vi har følgende funktion, som vi skal udregne:
+
+$$\lim_{x\rightarrow 2}\frac{x^{2}-4}{x-2}=4$$
+
+- STEP 1: Samme værdier fjernes på nævneren og tælleren i brøken.
+
+$$\lim_{x\rightarrow 2}\frac{(x+2)\cdot (\cancel{x-2)}}{\cancel{(x-2)}}=\lim_{x\rightarrow 2}(x+2)=2+2=4$$
+
+---
+
+Vi kan se, at vi har følgende funktion:
+
+$$\lim_{x\rightarrow 5}x^2+2x-4$$
+
+STEP 1: X-værdien indsættes inde på funktionens x-værdier.
+
+
+$$x=5$$
+
+$$5^2+2\cdot5-4\leftrightarrow25+10-4\leftrightarrow35-4=31$$
+
+---
 
 
 
-# Polar Form of Complex Numbers
+Vi har følgende funktion, som vi skal udregne:
 
-- A complex number can also be expressed in polar form as $( z = r(\cos(\theta) + i \sin(\theta)))$ or in exponential form as $( z = re^{i\theta})$.
-- **Multiplication in Polar Form**: For $( z_1 = r_1 e^{i\phi_1} )$ and $( z_2 = r_2 e^{i\phi_2})$, the product is $( z_1 z_2 = r_1 r_2 e^{i(\phi_1 + \phi_2)} )$.
-- **Division in Polar Form**: Similar rules apply, with $( z_1/z_2 = \frac{r_1}{r_2} e^{i(\phi_1 - \phi_2)} )$.
+$$\lim_{x\rightarrow 3}\frac{x^3-27}{x-3}$$
+
+- STEP 1: Vi ved på forhånd, at vi har en kubik $x^3$ derfor bruges formlen: 
+
+$$A^3-B^3=(A\cdot B)\cdot(A^{2}+A\cdot B+B^{2})$$
+
+$$x^3=3^2+3\cdot3+9=9\cdot3=27$$
 
 
-# De Moivre's Theorem
 
-- The theorem states that $( (r(\cos(\phi) + i \sin(\phi)))^n = r^n (\cos(n\phi) + i \sin(n\phi)) )$.
-- Example exploration includes finding roots of complex numbers and applying the formula for multiple solutions.
+---
+
+
+## Eksempler på Uendeligheder
+
+
+- at finde Grænse af Uendeligheden og dets løsninger:
+	- Her er der tilføjet nogle eksempler på, hvordan Uendeligheder er med en Konstant.
+	- **BEMÆRK**: At når vi har en værdi som går mod uendelig fra det ene side eller det andet, så ender resultatet med at være uendeligt med en plus eller minus fortegn foran, afgørende om hvilken retning vi går mod.
+
+
+$$\lim_{x\rightarrow \infty}(x^2)=+\infty$$
+
+$$\lim_{x\rightarrow -\infty}(x^2)=(-\infty)^2=+\infty$$
+
+
+$$\lim_{x\rightarrow \infty}(x^3)=(\infty)^3=+\infty$$
+
+
+$$\lim_{x\rightarrow -\infty}(x^3)=(-\infty)^3=-\infty$$
+
+
+## Mean Value Teorien
+
+
+- Når vi snakker om Mean Value teorien, forsøger vi at finde den midterste punkt mellem to dele.
+- Her kommer vi til at vise steps til hvordan man løser opgaven med Mean Value teorien.
+
+
+- STEP 1: Opskriv funktionen
+
+$$f(x)=x^2-4x+1$$
+
+og $$[1,5]$$
+
+
+- STEP 2: Differentiere funktionen:
+
+
+$$f'(x)=2x-4$$
+
+
+
+- STEP 3: Indsæt Interval værdierne inde i stamfunktionen.
+
+
+$$f(5)=5^2-4\cdot5+1=25-20+1=6$$
+
+$$f(1)=1^2-4+1=-3+1=-2$$
+
+
+STEP 4: Sæt værdierne ind i formlen.

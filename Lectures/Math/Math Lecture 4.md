@@ -1,21 +1,21 @@
 ---
-creation date: 2024-11-27 19:13
-modification date: Wednesday 27th November 2024 19:13:42
+creation date: 2024-11-27 16:56
+modification date: Wednesday 27th November 2024 16:56:11
 tags:
   - "#Lecture"
 year: 2024
 semester: 3
-Lecture: Lectures/Math
+Lecture: Lectures/Math/Assignments
 ---
 ---
-# [[Math Lecture 5]]
+# [[Math Lecture 4]]
 
 
 ## Assignments
 
  ```dataview
 table file.name, links
-from "Lectures/Math"
+from "Lectures/Math/Assignments"
 where contains(file.tags, "#Assignments") and contains(file.path, this.file.name)
 ```
 
@@ -26,9 +26,10 @@ where contains(file.tags, "#Assignments") and contains(file.path, this.file.name
 
  ```dataview
 table file.name, links
-from "Lectures/Math"
+from "Lectures/Math/Assignments"
 where contains(file.tags, "#Notes") and contains(file.path, this.file.name)
 ```
+
 
 
 
