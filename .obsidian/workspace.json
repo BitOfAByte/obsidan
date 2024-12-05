@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Lectures/Git/Git Lecture 7 Common Issues.md",
+                "file": "Lectures/Math/Notes/Math Lecture 6 Notes.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Git Lecture 7 Common Issues"
+              "title": "Math Lecture 6 Notes"
             }
           }
         ]
@@ -222,6 +222,8 @@
   },
   "active": "a7ffc3ebcc0654c3",
   "lastOpenFiles": [
+    "Lectures/Math/Notes/Math Lecture 5 Notes.md",
+    "Lectures/Git/Git Lecture 7 Common Issues.md",
     "Lectures/OD/Notes/OD Lecture 1 Notes.md",
     "Lectures/OD/Notes/OD Lecture 4 Notes.md",
     "Lectures/OD/OD Lecture 3.md",
@@ -231,7 +233,6 @@
     "Lectures/Math/Eksamen lecture 9.md",
     "Lectures/Math/Notes/Math Lecture 6 Notes.md",
     "Lectures/Math/Math Lecture 6.md",
-    "Lectures/Math/Notes/Math Lecture 5 Notes.md",
     "Lectures/Math/Math Lecture 5.md",
     "Lectures/Math/Math Lecture 9.md",
     "Lectures/Math/Notes/Math Lecture 3 Notes.md",
@@ -250,7 +251,6 @@
     "Use later.md",
     "Lectures/Math/Assignments/Math Lecture 1 Assignment.md",
     "Lectures/Math/Assignments/Math Lecture 9 Assignments.md",
-    "Lectures/Math/Assignments/Math Module Assignments.md",
     "Lectures/OD/Pasted image 20241004144112.png",
     "Lectures/OD/Pasted image 20241006135754.png",
     "Lectures/web-tech/Notes",

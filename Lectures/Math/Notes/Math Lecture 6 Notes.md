@@ -43,3 +43,10 @@ $$x_{1+1}\rightarrow x_{2}=0.5-\frac{f(0.5)}{f'(0.5)}$$
 
 $$f(0.5)=0.5^3-4\cdot0.5^2+1=0$$
 
+
+
+
+
+
+
+# L - Hospitalsreglen
