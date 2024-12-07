@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Lectures/Math/Math Lecture 2.md",
+                "file": "Lectures/Math/Assignments/Exercises.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Math Lecture 2"
+              "title": "Exercises"
             }
           }
         ]
@@ -222,6 +222,9 @@
   },
   "active": "a7ffc3ebcc0654c3",
   "lastOpenFiles": [
+    "Lectures/Math/Eksamen lecture 9.md",
+    "Lectures/Math/ba-mat1-exercises.pdf",
+    "Lectures/Math/Math Lecture 2.md",
     "Lectures/Math/Notes/Math Lecture 6 Notes.md",
     "Lectures/Math/Notes/Math Lecture 5 Notes.md",
     "Lectures/Git/Git Lecture 7 Common Issues.md",
@@ -231,7 +234,6 @@
     "Lectures/OD/Notes/OD Lecture 2 Notes.md",
     "Lectures/OD/OD Lecture 2.md",
     "Lectures/OD/OD Lecture 1.md",
-    "Lectures/Math/Eksamen lecture 9.md",
     "Lectures/Math/Math Lecture 6.md",
     "Lectures/Math/Math Lecture 5.md",
     "Lectures/Math/Math Lecture 9.md",
@@ -249,13 +251,10 @@
     "Lectures/Math/Notes/Math Lecture 9 Notes.md",
     "Lectures/Math/Math Lecture 1.md",
     "Use later.md",
-    "Lectures/Math/Assignments/Math Lecture 1 Assignment.md",
-    "Lectures/Math/Assignments/Math Lecture 9 Assignments.md",
     "Lectures/OD/Pasted image 20241004144112.png",
     "Lectures/OD/Pasted image 20241006135754.png",
     "Lectures/web-tech/Notes",
     "Lectures/web-tech/Assignments",
-    "Lectures/Math/ba-mat1-exercises.pdf",
     "Lectures/a/Assignments",
     "Lectures/a",
     "Lectures/Statistical data analysis/Notes",
