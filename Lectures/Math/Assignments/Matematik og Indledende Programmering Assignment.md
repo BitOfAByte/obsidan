@@ -343,3 +343,138 @@ $x=3$
 $y=1$
 $z=2$
 
+# Opgave 2 (10 point)
+
+## a) Bestem værdien af udtrykket herunder
+
+
+$$\lim_{x\rightarrow2} \frac{x^3-3x^2+4}{x^3-2x^2-4x+8}$$
+
+
+### Step 1 insæt 2 på x plads
+
+$$\frac{2^3-3\cdot2^2+4}{2^3-2\cdot2^2-4\cdot2+8}\leftrightarrow \frac{8-12+4}{8-8-8+8}=\frac{0}{0}$$
+
+både tæller og nævner bliver $0$, så vi har en $\frac{0}{0}$​-ubestemt grænseværdi. Vi skal derfor faktorisere eller bruge L’Hôpitals regel.
+
+
+
+$$\lim_{x\rightarrow C} \frac{f(x)}{g(x)}=\lim_{x\rightarrow C}\frac{f'(x)}{g'(x)}$$
+
+
+
+$$f(x)=x^3-3x^2+4$$
+$$g(x)=x^3-2x^2-4x+8$$
+
+
+$$f'(x)=3x^2-3\cdot2x\leftrightarrow3x^2-6x$$
+$$g'(x)=3x^2-2\cdot2x-4\leftrightarrow3x^2-4x-4$$
+
+
+sæt 2 ind på x plads igen, hvis det giver $\frac{0}{0}$
+
+
+
+$$f'(2)=3\cdot2^2-6\cdot2\leftrightarrow12-12=0$$
+
+
+
+$$g'(2)=3\cdot2^2-4\cdot2-4\leftrightarrow12-8-4=0$$
+
+
+
+Vi differentiere igen da det stadigvæk giver $\frac{0}{0}$
+
+
+$$f''(x)=3\cdot2x-6\leftrightarrow6x-6$$
+
+$$g''(x)=3\cdot2x-4\leftrightarrow6x-4$$
+
+
+
+Sæt $2$ på $x$ plads igen
+
+
+$$f''(2)=6\cdot2-6=6$$
+$$g''(2)=6\cdot2-4\leftrightarrow12-4=8$$
+
+$$\lim_{x\rightarrow2} \frac{6}{8}$$
+
+brøken kan forkortes da begge tal går op i 2:
+
+$$\frac{6}{8}=\frac{3}{4}$$
+
+
+svaret er:
+
+$$\lim_{x\rightarrow2} \frac{3}{4}$$
+
+
+
+
+## b) Bestem den generelle løsning til differentialligningen
+
+
+$$\frac{dy}{dx}-y=e^x$$
+
+
+
+# Opgave 3
+
+
+
+
+
+# Opgave 4
+
+
+## a) Bestem den reelle og imaginære del af tallet z
+
+
+$$z= (1+2i)\cdot(2-i)\cdot(1+i)$$
+
+### Trin 1: Multiplicér de første to faktorer
+
+Reglen for multiplikation af komplekse tal:
+
+ $$(a+bi)\cdot(c+di)=(a\cdot c-b\cdot d)+(a\cdot d + b\cdot c)i$$
+
+For $(1+2i)\cdot(2-i)$:
+- $a=1$
+- $b=2$
+- $c=2$
+- $d=-1$
+
+$$\mathbb{R} : a\cdot c−b\cdot d = 1\cdot 2-2\cdot(-1)=2+2=4$$
+$$Im: a\cdot d + b \cdot c=1\cdot(-1)+2\cdot2=-1+4=3$$
+
+Så:
+
+$$(1+2i)(2-i)=4+3i$$
+
+
+### Trin 2: Multiplicér resultatet med $(1+i)$
+
+
+
+Nu beregner vi $(4+3i)(1+i)$:
+
+- $a=4$
+- $b=3$
+- $c=1$
+- $d=1$
+
+
+$$\mathbb{R}: a\cdot c - b\cdot d = 4\cdot1-3\cdot1\leftrightarrow4-3=1$$
+$$Im: a\cdot d + b\cdot c = 4\cdot1-3\cdot1\leftrightarrow4+3=7$$
+
+
+$$z=1+7i$$
+
+hvor $\mathbb{R} = 1$ og den imaginær er $7$
+
+
+
+
+## b) 
+
