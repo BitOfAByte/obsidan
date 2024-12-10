@@ -8,9 +8,10 @@
   "obsidian-enhancing-mindmap",
   "mermaid-helper",
   "mermaid-tools",
-  "dataview",
   "buttons",
   "templater-obsidian",
   "obsidian-tikzjax",
-  "quick-latex"
+  "quick-latex",
+  "mathlinks",
+  "dataview"
 ]

@@ -423,6 +423,53 @@ $$\frac{dy}{dx}-y=e^x$$
 
 
 
+## a) Beregn værdien af det bestemte integrale
+
+
+$$\int_{-2}^{3}\frac{2}{3+x}dx$$
+
+
+use subsitution
+
+
+$$u=3+x$$
+$$du=dx$$
+
+$$x=-2\rightarrow u=1$$
+$$x=3 \rightarrow u = 6$$
+
+
+$$2\int_{1}^{6}\frac{1}{u} du$$
+
+
+$$2[ln|u|]_{1}^{6}$$
+$$=2(ln(6)-ln(1))$$
+$$=2ln(6)+C$$
+
+
+## b) Bestem udtrykket for det ubestemte integrale
+
+$$\int x\cdot e^{-x}dx$$
+
+
+use integration by parts:
+
+
+$$\int u\quad dv=u\cdot v-\int v\quad du$$
+ 
+
+$$u=x$$
+$$du=1dx$$
+$$v=-e^{-x}$$
+$$dv=e^{-x} dx$$
+
+$$x\cdot(-e^{-x})-\int -e^{-x} (1dx)$$
+
+$$x\cdot(-e^{-x})+e^{-x}+C$$
+
+## c) Opdel udtrykket herunder i partial brøker
+
+$$\frac{4x+13}{(x+3)\cdot(x+4)}$$
 
 
 # Opgave 4
@@ -476,5 +523,122 @@ hvor $\mathbb{R} = 1$ og den imaginær er $7$
 
 
 
-## b) 
+## b) Indtegn følgende værdier i et Argand diagram
+
+
+
+$$z_1=1+2i$$
+$$z_2=2-i$$
+$$z_3=3\cdot e^{i\frac{\pi}{4}}$$
+
+$$z_4=3\cdot e^{i\frac{5\cdot\pi}{4}}$$
+
+for at løse $z_3$ skal vi bruge Euler's formula:
+
+
+$$e^{j\theta}=cos(\theta)+i\cdot sin(\theta)$$
+
+
+hvor:
+
+- $j=i$
+- $\theta=\frac{\pi}{4}$
+
+
+
+plugging in the values:
+
+$$e^{i\frac{\pi}{4}}=cos(\frac{\pi}{4})+i\cdot sin(\frac{\pi}{4})$$
+
+
+$$cos(\frac{\pi}{4})=\frac{\sqrt{2}}{2}$$
+
+$$sin(\frac{\pi}{4})=\frac{\sqrt{2}}{2}$$
+
+
+we get:
+
+$$3\cdot(\frac{\sqrt{2}}{2}+i\cdot\frac{\sqrt{2}}{2})$$
+
+simplify:
+
+
+$$\frac{3\cdot\sqrt{2}}{2}+i\cdot\frac{3\cdot\sqrt{2}}{2}$$
+
+
+
+same thing for $z_4$
+
+
+$$e^{j\theta}=cos(\frac{5\cdot\pi}{4})+i\cdot sin(\frac{5\cdot\pi}{4})$$
+
+
+
+we get:
+
+$$cos(\frac{5\cdot\pi}{4})=-\frac{\sqrt{2}}{2}$$
+$$sin(\frac{5\cdot\pi}{4})=-\frac{\sqrt{2}}{2}$$
+
+
+$$3\cdot(-\frac{\sqrt{2}}{2}+i\cdot(-\frac{\sqrt{2}}{2}))$$
+
+Simplifying the expression:
+
+
+$$-\frac{3\cdot\sqrt{2}}{2}-i\cdot\frac{3\cdot\sqrt{2}}{2}$$
+
+
+# Opgave 5
+
+
+## a) Bestemxogykoordinater til alle de steder p ̊a figuren fra opgave 5, hvor der er skæringer mellemto af de tre funktioner $f(x)$, $g(x)$ og $h(x)$
+
+$$f(x)=(x^2-1)\cdot e^{-0.5x}$$
+$$g(x)=1.6$$
+$$h(x)=2\cdot e^{-0.5x}$$
+
+
+### skæring med $f(x)$ og $h(x)$
+
+
+$$f(x)=h(x)$$
+
+
+$$\frac{(x^2-1)\cdot e^{-0.5x}}{e^{-0.5x}}=\frac{2\cdot e^{-0.5x}}{e^{-0.5x}}$$
+
+
+$$x^2-1=2$$
+$$x^2-1+1=2+1\leftrightarrow x^2=3$$
+$$x=\pm \sqrt{3}$$
+
+
+### skæring med $g(x)$ og $h(x)$
+
+
+$$1.6=2\cdot e^{-0.5x}$$
+
+$$\frac{1.6}{2}=\frac{e^{-0.5x}}{2}$$
+
+$$0.8=e^{-0.5x}$$
+
+
+$$ln(0.8)=ln(e^{-0.5x})$$
+
+
+Use the property of logarithms
+
+$$ln(e^a)=a$$
+
+$$ln(0.8)=-0.5x$$
+
+multiply both sides by $-2$ to isolate $x$:
+
+
+$$x=-\frac{2ln(0.8)}{1}$$
+
+$$=\frac{2ln(0.8)}{1}$$
+
+## b) Bestem maksima af funktionen $f(x)$
+
+
 
