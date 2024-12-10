@@ -43,7 +43,7 @@ $$det(A)=a(ei−fh)−b(di−fg)+c(dh−eg)$$
 
 1. **Udvikling efter første række**: Tag elementerne fra første række $(a,b,c)$, og beregn hver determinanteffekt ved at fjerne den række og søjle, hvor elementet sidder, og tage determinanten af den tilbageværende $2\times2$ matrix.
     
-2. **Bestem $2\times2$ determinanter**: For hver 2×22 \times 22×2-matrix, brug formlen:
+2. **Bestem $2\times2$ determinanter**: For hver $2\times2$-matrix, brug formlen:
 
 $$det(\begin{bmatrix}x&y\\z&w\end{bmatrix})=x\cdot w - y \cdot z$$
 
