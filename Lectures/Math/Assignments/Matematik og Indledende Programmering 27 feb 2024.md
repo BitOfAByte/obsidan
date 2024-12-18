@@ -237,9 +237,62 @@ $$6x\cdot \frac{e^{-x^{2}+1}}{(e^{-x^{2}+1})^{2}}\leftrightarrow 6x\cdot \frac{\
 
 
 
-## a) 
+## a) Beregn værdien af det bestemte integrale
+
+ $$\int_{-2}^{3}\frac{x}{1+x^2}dx$$
 
 
+
+![[{AE7EA282-918B-4796-8F36-1C00CAE2CD27}.png]]
+
+
+$$g(x)=1+x^2$$
+$$u=1+x^2$$
+
+$$du=2x\quad dx$$
+$$\frac{1}{2}\cdot du = x \quad dx$$
+
+
+ $$\int \frac{x}{1+x^{2}}dx= \int \frac{1}{u} \cdot  \frac{1}{2}du$$
+$$=\frac{1}{2}\cdot\int \frac{1}{u} du$$
+
+$$=\frac{1}{2}\cdot ln(u)+C$$
+
+ $$=\frac{1}{2}\cdot ln(1+x^2)+C$$
+
+
+
+sæt grænseværdierne ind på x's plads
+
+
+$$\frac{1}{2}\cdot ln(7)=0.97$$
+
+$$\frac{1}{2}\cdot ln(5)=0.80$$
+
+$$0.97-0.80=0.17$$
+
+
+## b) Find udtrykket for det ubestemte integrale
+
+$$\int x\cdot sin(2x) dx$$
+
+
+$$u=x$$
+$$dv=sin(2x)dx$$
+
+$$v=-\frac{1}{2}\cdot cos(2x) dx$$
+
+
+$$\int u \cdot dv = u\cdot v-\int v du$$
+
+
+$$x\cdot (-\frac{1}{2}\cdot cos(2x))-\int -\frac{1}{2} \cdot cos(2x) dx$$
+
+$$-\frac{1}{2}\cdot x\cdot cos(2x)+\frac{1}{2}\int cos(2x)dx$$
+
+$$\int cos(2x) dx = \frac{1}{2}\cdot sin(2x) dx$$
+
+$$-\frac{1}{2}\cdot x\cdot cos(2x)+\frac{1}{4} \cdot sin(2x)+C$$
 
 # Opgave 4
 
@@ -273,6 +326,20 @@ $$Z= \frac{2\cdot i}{3\cdot (\frac{\sqrt{2}}{2}+i\cdot\frac{\sqrt{2}}{2})}$$
 $$\frac{dv}{dt}=g-k\cdot v$$
 
 
+$$\frac{dv}{dt}=y'$$
+$$a=k$$
+$$y=v$$
+$$b=g$$
+
+
+$$\frac{dv}{dt}+k\cdot v=g$$
+
+
+$$v=\frac{g}{k}+c\cdot e^{-kt}$$
+
+![[Pasted image 20241210174923.png]]
+
+
 
 
 
@@ -282,10 +349,66 @@ $$\frac{dv}{dt}=g-k\cdot v$$
 ## a) Bestem x og y koordinater til alle de steder på figuren fra opgave 5, hvor funktionen $g(x)$ skærer en af funktionerne $f(x)$ eller $h(x)$.
 
 
+$$f(x)=2\cdot cos(3x)\cdot e^{-0.2x}$$
+$$g(x)=0.95$$
+$$h(x)=2\cdot e^{-0.2x}$$
+
+
+### Løsning af $f(x)=g(x)$
+
+$$2\cdot cos(3x)\cdot e^{-0.2x}=0.95$$
+
+
+#### Del med 2 for at isolere cos(3x)
+
+$$ cos(3x)\cdot e^{-0.2x}=0.475$$
+
+#### Del med $e^{-0.2x}$ 
+
+$$ cos(3x)=\frac{0.475}{e^{-0.2x}}$$
+
+$$=0.475\cdot e^{-0.2x}$$
+
+
+#### Løsning af $h(x)=g(x)$
+
+$$2\cdot e^{-0.2x}=0.95$$
+
+
+del med 2
+
+$$e^{-0.2x}=\frac{0.95}{2}$$
+
+
+tag ln på begge sider:
+
+$$-0.2x=ln(\frac{0.95}{2})$$
 
 
 ## b) Bestem værdien af følgende bestemte integrale
 
 
 $$\int_{\frac{\pi}{6}}^{\frac{\pi}{2}} 2\cdot cos(3x)\cdot e^{-0.2x}dx$$
+
+
+
+integration by parts:
+
+
+$$\int u \cdot dv = u\cdot v-\int v du$$
+
+
+$$u=e^{-0.2x}$$
+
+$$du=-0.2\cdot e^{-0.2x}dx$$
+
+$$dv = 2\cdot cos(3x)dx$$
+
+$$v = \frac{2}{3} \cdot sin(3x) dx$$
+
+
+
+$$e^{-0.2x}\cdot\frac{2}{3}\cdot sin(3x)-\int \frac{2}{3}\cdot sin(3x)\cdot(0.2e^{-0.2x})dx$$
+
+$$e^{-0.2x}\cdot\frac{2}{3}\cdot sin(3x)- \frac{2}{3}\int  sin(3x)\cdot(0.2e^{-0.2x})dx$$
 

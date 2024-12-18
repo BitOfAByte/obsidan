@@ -638,7 +638,5 @@ $$x=-\frac{2ln(0.8)}{1}$$
 
 $$=\frac{2ln(0.8)}{1}$$
 
-## b) Bestem maksima af funktionen $f(x)$
-
 
 
