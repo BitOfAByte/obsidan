@@ -16,6 +16,8 @@ links: "[[OD Lecture 4]]"
 
 # Exercise 01: Examine the tools
 
+
+
 # Exercise 02: Take your own route
 
 # Exercise 03: Networking Models
