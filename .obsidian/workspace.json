@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Lectures/OD/Assignments/OD Lecture 7 Assignments.md",
+                "file": "Lectures/OD/Notes/OD Lecture 2 Notes.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "OD Lecture 7 Assignments"
+              "title": "OD Lecture 2 Notes"
             }
           }
         ]
@@ -222,17 +222,18 @@
   },
   "active": "a7ffc3ebcc0654c3",
   "lastOpenFiles": [
+    "Lectures/OD/Notes/OD Lecture 6 Notes.md",
+    "Lectures/OD/Notes/OD Lecture 7 Notes.md",
+    "Lectures/OD/Notes/OD Lecture 8 Notes.md",
+    "Lectures/OD/Assignments/OD Lecture 7 Assignments.md",
     "Lectures/OD/Assignments/Main.py",
     "Lectures/OD/Assignments/DockerfileL7E2",
     "Lectures/OD/Assignments/DockerfileL7E22",
     "Lectures/OD/OD Lecture 7.md",
-    "Lectures/OD/Notes/OD Lecture 7 Notes.md",
-    "Lectures/OD/Assignments/OD Lecture 7 Assignments.md",
     "Lectures/OD/Assignments/OD Lecture 6 Assignment.md",
     "Lectures/OD/Assignments/l6e3.yml",
     "Lectures/OD/Assignments/OD Lecture 2 Assignments.md",
     "Lectures/OD/Assignments/OD Lecture 5 Assignment.md",
-    "Lectures/OD/Notes/OD Lecture 6 Notes.md",
     "Lectures/OD/OD Lecture 6.md",
     "Lectures/OD/Assignments/OD Lecture 4 Assignment.md",
     "Lectures/OD/Assignments/OD Lecture 3 Assignments.md",
@@ -242,10 +243,8 @@
     "Lectures/OD/Assignments/DockerfileL2E2",
     "Lectures/OD/Assignments/L2E4/init.sql",
     "Lectures/OD/Assignments/L2E4",
-    "Lectures/OD/Assignments/L2E2/select.php",
     "Lectures/OD/Assignments/OD Lecture 1 Assignments.md",
     "Lectures/OD/Notes/OD Lecture 5 Notes.md",
-    "Lectures/OD/Notes/OD Lecture 8 Notes.md",
     "Lectures/OD/Notes/OD Lecture 2 Notes.md",
     "Lectures/OD/Notes/OD Lecture 1 Notes.md",
     "Lectures/OD/Notes/OD Lecture 4 Notes.md",
