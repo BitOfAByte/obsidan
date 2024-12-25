@@ -11,14 +11,12 @@
             "id": "a7ffc3ebcc0654c3",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "Lectures/OD/Notes/OD Lecture 2 Notes.md",
-                "mode": "source",
-                "source": false
+                "file": "Lectures/Statistics/1. Statistical Inference/{F278E985-2659-4652-9CEE-60224877F4BF}.png"
               },
-              "icon": "lucide-file",
-              "title": "OD Lecture 2 Notes"
+              "icon": "lucide-image",
+              "title": "{F278E985-2659-4652-9CEE-60224877F4BF}"
             }
           }
         ]
@@ -220,8 +218,10 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "a7ffc3ebcc0654c3",
+  "active": "0e3d9c4c550f9ca9",
   "lastOpenFiles": [
+    "Lectures/Statistics/1. Statistical Inference/{AE7EA282-918B-4796-8F36-1C00CAE2CD27}.png",
+    "Lectures/OD/Notes/OD Lecture 2 Notes.md",
     "Lectures/OD/Notes/OD Lecture 6 Notes.md",
     "Lectures/OD/Notes/OD Lecture 7 Notes.md",
     "Lectures/OD/Notes/OD Lecture 8 Notes.md",
@@ -245,7 +245,6 @@
     "Lectures/OD/Assignments/L2E4",
     "Lectures/OD/Assignments/OD Lecture 1 Assignments.md",
     "Lectures/OD/Notes/OD Lecture 5 Notes.md",
-    "Lectures/OD/Notes/OD Lecture 2 Notes.md",
     "Lectures/OD/Notes/OD Lecture 1 Notes.md",
     "Lectures/OD/Notes/OD Lecture 4 Notes.md",
     "Lectures/OD/OD Lecture 5.md",
