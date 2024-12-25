@@ -11,12 +11,14 @@
             "id": "a7ffc3ebcc0654c3",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "Lectures/Statistics/1. Statistical Inference/{F278E985-2659-4652-9CEE-60224877F4BF}.png"
+                "file": "Lectures/Statistics/Assignments/Statistics Lecture 1 Assignments.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-image",
-              "title": "{F278E985-2659-4652-9CEE-60224877F4BF}"
+              "icon": "lucide-file",
+              "title": "Statistics Lecture 1 Assignments"
             }
           }
         ]
@@ -218,8 +220,15 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "0e3d9c4c550f9ca9",
+  "active": "a7ffc3ebcc0654c3",
   "lastOpenFiles": [
+    "Lectures/Statistics/Statistics Lecture 1.md",
+    "Lectures/Statistics/Assignments/Statistics Lecture 1 Assignments.md",
+    "Lectures/Statistics/Notes/Statistics Lecture 1 Notes.md",
+    "Lectures/Statistics/Assignments",
+    "Untitled.md",
+    "Lectures/Statistics/Notes",
+    "Lectures/Statistics/1. Statistical Inference/{F278E985-2659-4652-9CEE-60224877F4BF}.png",
     "Lectures/Statistics/1. Statistical Inference/{AE7EA282-918B-4796-8F36-1C00CAE2CD27}.png",
     "Lectures/OD/Notes/OD Lecture 2 Notes.md",
     "Lectures/OD/Notes/OD Lecture 6 Notes.md",
@@ -241,8 +250,6 @@
     "Lectures/OD/Assignments/DockerfileL2E4",
     "Lectures/OD/Assignments/DockerfileL2E3",
     "Lectures/OD/Assignments/DockerfileL2E2",
-    "Lectures/OD/Assignments/L2E4/init.sql",
-    "Lectures/OD/Assignments/L2E4",
     "Lectures/OD/Assignments/OD Lecture 1 Assignments.md",
     "Lectures/OD/Notes/OD Lecture 5 Notes.md",
     "Lectures/OD/Notes/OD Lecture 1 Notes.md",
@@ -253,9 +260,6 @@
     "Lectures/Math/Math Lecture 6.md",
     "Lectures/Math/Math Lecture 9.md",
     "templates/Lecture Template.md",
-    "templates/Note template.md",
-    "Main.md",
-    "Lectures/Math/Assignments/Matematik og Indledende Programmering 4. januar 2024.md",
     "Statistics/1. Statistical Inference/{AE7EA282-918B-4796-8F36-1C00CAE2CD27}.png",
     "Statistics/1. Statistical Inference/Pasted image 20241210174923.png",
     "Statistics/1. Statistical Inference/{F278E985-2659-4652-9CEE-60224877F4BF}.png",
@@ -264,8 +268,6 @@
     "Z-Archive/Pictures/Programming/nacos.png",
     "Z-Archive/Pictures/Programming/nacos-center.png",
     "Z-Archive/Pictures/Programming/gateway.jpg",
-    "Z-Archive/Pictures/Programming/Microservices.jpeg",
-    "Z-Archive/Pictures/Big Data/yarnCluster.png",
     "Untitled 1.canvas",
     "Untitled.canvas"
   ]
