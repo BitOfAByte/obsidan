@@ -143,7 +143,7 @@ links: "[[OD Lecture 9]]"
 - A division of a disk
 
 
-## How is a dicker image configured?
+## How is a docker image configured?
 
 - Dockerfile
 - in a Docker Container
@@ -279,7 +279,7 @@ webserver
 - TCP
 - UDP
 - ARP
-- Thir overheads are identical
+- Their overheads are identical
 
 
 ### Answer
@@ -419,7 +419,7 @@ webserver
 - GET / HTTP/1.1
 
 
-## Which of the following   are not instructions used in Dockerfiles
+## Which of the following are not instructions used in Dockerfiles
 
 - RUN
 - MOVE
@@ -443,7 +443,7 @@ webserver
 -  Proxy_prass
 
 
-## Which of the following  arte not vaild docker commands
+## Which of the following are not vaild docker commands
 - docker compose up / docker-compose up 
 - docker run nginx
 - docker build .
