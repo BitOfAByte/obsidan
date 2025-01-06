@@ -1,14 +1,14 @@
 ---
-creation date: 2024-11-19 19:11
-modification date: Tuesday 19th November 2024 21:10:34
+creation date: 2025-01-06 17:27
+modification date: Monday 6th January 2025 17:27:22
 tags:
   - "#Lecture"
-year: 2024
-semester: 3
+year: 2025
+semester: Break before Semester 4
 Lecture: Lectures/web-tech
 ---
 ---
-# [[web-tech Lecture 1]]
+# [[Web tech Lecture 7]]
 
 
 ## Assignments
@@ -29,3 +29,6 @@ table file.name, links
 from "Lectures/web-tech"
 where contains(file.tags, "#Notes") and contains(file.path, this.file.name)
 ```
+
+
+

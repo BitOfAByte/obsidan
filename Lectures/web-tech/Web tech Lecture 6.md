@@ -1,14 +1,14 @@
 ---
-creation date: 2024-11-19 19:28
-modification date: Tuesday 19th November 2024 19:28:22
+creation date: 2025-01-06 17:14
+modification date: Monday 6th January 2025 17:14:21
 tags:
   - "#Lecture"
-year: 2024
-semester: 3
+year: 2025
+semester: Break before Semester 4
 Lecture: Lectures/web-tech
 ---
 ---
-# [[web-tech Lecture 10]]
+# [[Web tech Lecture 6]]
 
 
 ## Assignments
