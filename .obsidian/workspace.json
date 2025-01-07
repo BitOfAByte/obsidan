@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Lectures/web-tech/Web tech Lecture 9.md",
+                "file": "Lectures/web-tech/Web tech Lecture 10.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Web tech Lecture 9"
+              "title": "Web tech Lecture 10"
             }
           }
         ],
@@ -237,8 +237,11 @@
   },
   "active": "927c5394100a5973",
   "lastOpenFiles": [
-    "Lectures/web-tech/Notes/Web Tech Lecture 9 Notes.md",
+    "Lectures/web-tech/Notes/Web tech Lecture 10 notes.md",
+    "Lectures/Math/Math Lecture 9.md",
+    "Lectures/web-tech/Web tech Lecture 10.md",
     "Lectures/web-tech/Web tech Lecture 9.md",
+    "Lectures/web-tech/Notes/Web Tech Lecture 9 Notes.md",
     "Lectures/web-tech/Notes/Web tech Lecture 8 Notes.md",
     "Lectures/web-tech/Web Tech Lecture 8.md",
     "Lectures/web-tech/Notes/Web tech Lecture 7 Notes.md",
@@ -260,9 +263,6 @@
     "Lectures/web-tech/Assignments/web-tech Lecture 1 Assignment.md",
     "Lectures/web-tech/Notes/web-tech Lecture 10 Notes.md",
     "Lectures/web-tech/Notes/web-tech Lecture 1 Notes.md",
-    "Lectures/web-tech/web-tech Lecture 1.md",
-    "Lectures/web-tech/web-tech Lecture 10.md",
-    "Lectures/OD/Notes/OD Lecture 9 Notes.md",
     "Lectures/OD/Pasted image 20241004144112.png",
     "Lectures/OD/Pasted image 20241004144112 1.png",
     "Statistics/1. Statistical Inference/{6C21DC9C-BE0E-47C2-92D7-0D14EE00F6CE}.png",
